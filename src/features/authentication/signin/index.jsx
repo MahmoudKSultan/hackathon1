@@ -31,8 +31,7 @@ export function Signin() {
 		storeData("user", response.data.accessToken);
 		navigate("/");
 	}
-	console.log(response);
-	console.log(error);
+
 	return (
 		<AuthWrapper
 			title={"Login"}
